@@ -1,0 +1,18 @@
+E:\TP2_DoreR_ChevalierC\Code\TP2_Prog_Finals\TP2_Prog\bin\Debug\TP2_Prog.exe.config
+C:\Users\Raphael\Sync\École\Informatique\Programmation\3. TPs\TP2\TP2_DoreR_ChevalierG Remise\Code\TP2_Prog_Finals\TP2_Prog\bin\Debug\TP2_Prog.exe.config
+C:\Users\Raphael\Sync\École\Informatique\Programmation\3. TPs\TP2\TP2_DoreR_ChevalierG Remise\Code\TP2_Prog_Finals\TP2_Prog\bin\Debug\TP2_Prog.exe
+C:\Users\Raphael\Sync\École\Informatique\Programmation\3. TPs\TP2\TP2_DoreR_ChevalierG Remise\Code\TP2_Prog_Finals\TP2_Prog\bin\Debug\TP2_Prog.pdb
+C:\Users\Raphael\Sync\École\Informatique\Programmation\3. TPs\TP2\TP2_DoreR_ChevalierG Remise\Code\TP2_Prog_Finals\TP2_Prog\bin\Debug\TP2_Prog.xml
+C:\Users\Raphael\Sync\École\Informatique\Programmation\3. TPs\TP2\TP2_DoreR_ChevalierG Remise\Code\TP2_Prog_Finals\TP2_Prog\obj\x86\Debug\TP2_Prog.CommentJouer.resources
+C:\Users\Raphael\Sync\École\Informatique\Programmation\3. TPs\TP2\TP2_DoreR_ChevalierG Remise\Code\TP2_Prog_Finals\TP2_Prog\obj\x86\Debug\TP2_Prog.frmDemandeNom.resources
+C:\Users\Raphael\Sync\École\Informatique\Programmation\3. TPs\TP2\TP2_DoreR_ChevalierG Remise\Code\TP2_Prog_Finals\TP2_Prog\obj\x86\Debug\TP2_Prog.frmJeu.resources
+C:\Users\Raphael\Sync\École\Informatique\Programmation\3. TPs\TP2\TP2_DoreR_ChevalierG Remise\Code\TP2_Prog_Finals\TP2_Prog\obj\x86\Debug\TP2_Prog.frmModifierProfil.resources
+C:\Users\Raphael\Sync\École\Informatique\Programmation\3. TPs\TP2\TP2_DoreR_ChevalierG Remise\Code\TP2_Prog_Finals\TP2_Prog\obj\x86\Debug\TP2_Prog.frmPause.resources
+C:\Users\Raphael\Sync\École\Informatique\Programmation\3. TPs\TP2\TP2_DoreR_ChevalierG Remise\Code\TP2_Prog_Finals\TP2_Prog\obj\x86\Debug\TP2_Prog.MenuOptions.resources
+C:\Users\Raphael\Sync\École\Informatique\Programmation\3. TPs\TP2\TP2_DoreR_ChevalierG Remise\Code\TP2_Prog_Finals\TP2_Prog\obj\x86\Debug\TP2_Prog.ChoixNiveauxUpsRes.resources
+C:\Users\Raphael\Sync\École\Informatique\Programmation\3. TPs\TP2\TP2_DoreR_ChevalierG Remise\Code\TP2_Prog_Finals\TP2_Prog\obj\x86\Debug\TP2_Prog.SplashScreen.resources
+C:\Users\Raphael\Sync\École\Informatique\Programmation\3. TPs\TP2\TP2_DoreR_ChevalierG Remise\Code\TP2_Prog_Finals\TP2_Prog\obj\x86\Debug\TP2_Prog.Resources.resources
+C:\Users\Raphael\Sync\École\Informatique\Programmation\3. TPs\TP2\TP2_DoreR_ChevalierG Remise\Code\TP2_Prog_Finals\TP2_Prog\obj\x86\Debug\TP2_Prog.vbproj.GenerateResource.Cache
+C:\Users\Raphael\Sync\École\Informatique\Programmation\3. TPs\TP2\TP2_DoreR_ChevalierG Remise\Code\TP2_Prog_Finals\TP2_Prog\obj\x86\Debug\TP2_Prog.exe
+C:\Users\Raphael\Sync\École\Informatique\Programmation\3. TPs\TP2\TP2_DoreR_ChevalierG Remise\Code\TP2_Prog_Finals\TP2_Prog\obj\x86\Debug\TP2_Prog.xml
+C:\Users\Raphael\Sync\École\Informatique\Programmation\3. TPs\TP2\TP2_DoreR_ChevalierG Remise\Code\TP2_Prog_Finals\TP2_Prog\obj\x86\Debug\TP2_Prog.pdb

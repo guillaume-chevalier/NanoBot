@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{954B5847-81BB-41F1-BAFB-5662F50D3A24}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TP2_Prog.My.MyApplication</StartupObject>
+    <RootNamespace>TP2_Prog</RootNamespace>
+    <AssemblyName>TP2_Prog</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TP2_Prog.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TP2_Prog.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Formulaires\CommentJouer.Designer.vb">
+      <DependentUpon>CommentJouer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\CommentJouer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\frmDemandeNom.Designer.vb">
+      <DependentUpon>frmDemandeNom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\frmDemandeNom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\frmJeu.Designer.vb">
+      <DependentUpon>frmJeu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\frmJeu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\frmModifierProfil.Designer.vb">
+      <DependentUpon>frmModifierProfil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\frmModifierProfil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\frmPause.Designer.vb">
+      <DependentUpon>frmPause.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\frmPause.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\MenuOptions.Designer.vb">
+      <DependentUpon>MenuOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\MenuOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\ChoixNiveauxUpsRes.Designer.vb">
+      <DependentUpon>ChoixNiveauxUpsRes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\ChoixNiveauxUpsRes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelGeneration.vb" />
+    <Compile Include="LevelProcessing.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Precomputations.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Formulaires\CommentJouer.resx">
+      <DependentUpon>CommentJouer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\frmDemandeNom.resx">
+      <DependentUpon>frmDemandeNom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\frmJeu.resx">
+      <DependentUpon>frmJeu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\frmModifierProfil.resx">
+      <DependentUpon>frmModifierProfil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\frmPause.resx">
+      <DependentUpon>frmPause.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\MenuOptions.resx">
+      <DependentUpon>MenuOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\ChoixNiveauxUpsRes.resx">
+      <DependentUpon>ChoixNiveauxUpsRes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\SplashScreen.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="Resources\Icon.png" />
+    <Content Include="Resources\splash.jpg" />
+    <Content Include="Resources\splash2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
